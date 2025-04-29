@@ -12,16 +12,14 @@ public class ListNode {
     }
 
     public static ListNode ll1(){
-        ListNode list1 = new ListNode(1);
-        list1.next = new ListNode(2);
-        list1.next.next = new ListNode(4);
+        ListNode list1 = new ListNode(-9);
+        list1.next = new ListNode(3);
         return list1;
     }
 
     public static ListNode ll2(){
-        ListNode list2 = new ListNode(1);
-        list2.next = new ListNode(3);
-        list2.next.next = new ListNode(4);
+        ListNode list2 = new ListNode(5);
+        list2.next = new ListNode(7);
         return list2;
     }
 
@@ -30,6 +28,17 @@ public class ListNode {
         list2.next = new ListNode(2);
         list2.next.next = new ListNode(3);
         list2.next.next.next = new ListNode(4);
+        return list2;
+    }
+
+    public static ListNode pallinLL4() {
+        ListNode list2 = new ListNode(2);
+        list2.next = new ListNode(3);
+        list2.next.next = new ListNode(7);
+        list2.next.next.next = new ListNode(3);
+        list2.next.next.next.next = new ListNode(2);
+        list2.next.next.next.next.next = new ListNode(12);
+        list2.next.next.next.next.next.next = new ListNode(24);
         return list2;
     }
 }
